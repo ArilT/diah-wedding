@@ -120,7 +120,6 @@ body {
     margin-top: 100px;
 }
 
-
 .home .couple h3 {
     font-family: "Sacramento";
     font-weight: bold;
@@ -510,19 +509,4 @@ body {
     .hero h4 {
         margin-top: -10rem;
     }
-
-    .home .couple .couple1 {
-        position: relative;
-        background-color: #000000;
-        height: 10px;
-    }
-    
-    .home .couple .couple12 {
-        position: relative;
-        bottom: 100px;
-    }
-
-
-
-
 }
