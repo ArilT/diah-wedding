@@ -1,0 +1,528 @@
+:root {
+    --pink: #f14e95;
+    --bg: #0a0a0a;
+    --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: "Work Sans", sans-serif;
+    min-height: 2000px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero {
+    position: relative;
+    min-height: 100vh;
+    background-image: url(img/wedding-1361076_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+
+}
+
+.hero h1, .hero h4, .hero p, .hero h5, .hero h2 {
+    text-shadow: var(--shadow);
+}
+
+.hero h2 {
+    padding-bottom: 2.5rem;
+}
+
+.hero h1, .hero h2 {
+    font-family: "Sacramento";
+    font-size: 5rem;
+    font-family: "Monsieur La Doulaise", cursive;
+}
+
+
+.hero h4, .hero h5 {
+    font-size: 1.4rem;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400
+}
+
+.hero p {
+    font-size: 1.4rem;
+    font-family: "Work Sans", sans-serif;
+}
+
+.hero a {
+    color: white;
+    background-color: #00aeff;
+    box-shadow: var(--shadow);
+}
+
+
+
+.mynavbar {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    backdrop-filter: blur(4px);
+}
+
+.mynavbar .offcanvas {
+    height: 100vh;
+}
+
+.mynavbar .navbar-brand, .mynavbar .offcanvas-tittle {
+    font-family: "Sacramento", cursive;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #00aeff;
+}
+
+.mynavbar .nav-link {
+    text-transform: uppercase; 
+}
+
+.home {
+    background-image: url(img/symphony.png);
+    min-height: 100vh;
+    margin-top: -6.2rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+    z-index: 1;
+}
+
+
+.home h2 {
+    color: #00aeff;
+    font-family: "Sacramento", cursive;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.home h3 {
+    color: #444;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.home h4 {
+    font-family: "Scheherazade New", serif;
+    font-size: 2rem;
+}
+
+.home p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.home .couple {
+    margin-top: 100px;
+}
+
+
+.home .couple h3 {
+    font-family: "Sacramento";
+    font-weight: bold;
+    color: #00aeff;
+    font-size: 2.4rem;
+}
+
+.home .couple img {
+    width: 100%;
+}
+
+.info {
+    background-image: url(img/symphony1.png);
+    z-index: -1;
+    min-height: 100vh;
+    z-index: 1;
+}
+
+.info a {
+    background-color: #00aeff;
+    color: white;
+    font-family: "Work Sans", sans-serif;
+}
+
+.info h2 {
+    font-family: "Sacramento";
+    margin-top: 12rem;
+    font-weight: bold;
+    color: #00aeff;
+    font-size: 5rem;
+}
+
+.info .alamat  {
+    font-size: 1.2rem;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.info .description {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.info .card {
+    background-color: #00aeff00 !important;
+    color: rgb(255, 255, 255) !important;
+    border: 1px #00aeff00;
+}
+
+.info .card-header {
+    background-color: #00aeff00;
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.info .card-body {
+    font-size: 1.2rem;
+}
+
+.rsvp {
+    background-image: url(img/symphony.png);
+    min-height: 100vh;
+    z-index: 1;
+}
+.rsvp h2 {
+    font-family: "Sacramento";
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #00aeff;
+    font-size: 5rem;
+}
+
+.rsvp p {
+    font-size: 1.2rem;
+    font-family: "Work Sans", sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+.rsvp button {
+    background-color: #00aeff;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+.rsvp button:hover {
+    border: 1px solid #00aeff;
+    background-color: white;
+    color: #00aeff;
+    border-radius: 12%;
+}
+
+.animate__animated.animate__bounce {
+    --animate-delay:1s;
+}
+
+.set div:nth-child(1) {
+    left:10%; animation: animate 7s linear infinite;
+}
+.set div:nth-child(2) {
+    left:20%; animation: animate 9s linear infinite;
+    animation-delay: -7s;
+}
+.set div:nth-child(3) {
+    left:30%; animation: animate 13s linear infinite;
+}
+.set div:nth-child(4) {
+    left:40%; animation: animate 11s linear infinite;
+    animation-delay: -3s;
+}
+.set div:nth-child(5) {
+    left:50%; animation: animate 6s linear infinite;
+    animation-delay: -2s;
+}
+.set div:nth-child(6) {
+    left:60%; animation: animate 8s linear infinite;
+    animation-delay: -1s;
+}
+.set div:nth-child(7) {
+    left:70%; animation: animate 7s linear infinite;
+}
+.set div:nth-child(8) {
+    left:80%; animation: animate 15s linear infinite;
+    animation-delay: -7s;
+}
+.set div:nth-child(9) {
+    left:90%; animation: animate 9s linear infinite;
+    animation-delay: -3s;
+}
+.set div:nth-child(10) {
+    left:95%; animation: animate 6s linear infinite;
+    animation-delay: -2s;
+}
+.set {
+    position: absolute; width: 100%; height: 100%;
+    top:0; left: 0; pointer-events: none;
+    z-index: -1;
+    min-height: 100vh;
+    transform: scale(2);
+}
+.set img {
+    height: 15px; width: auto;
+}
+.set div {
+    position: absolute;
+    display: block;
+}
+
+.set2 {
+    position: absolute; width: 100%; height: 100%;
+    top:0; left: 0; pointer-events: none;
+    z-index: -1;
+    min-height: 100vh;
+    filter: blur(0.5px);
+    transform: scale(-3); rotate: 180deg;
+}
+
+.set2 img {
+    height: 10px; width: auto;
+}
+.set2 div {
+    position: absolute;
+    display: block;
+}
+
+.set2 div:nth-child(1) {
+    left:10%; animation: animate 7s linear infinite;
+}
+.set2 div:nth-child(2) {
+    left:20%; animation: animate 9s linear infinite;
+    animation-delay: -7s;
+}
+.set2 div:nth-child(3) {
+    left:30%; animation: animate 13s linear infinite;
+}
+.set2 div:nth-child(4) {
+    left:40%; animation: animate 11s linear infinite;
+    animation-delay: -3s;
+}
+.set2 div:nth-child(5) {
+    left:50%; animation: animate 6s linear infinite;
+    animation-delay: -2s;
+}
+.set2 div:nth-child(6) {
+    left:60%; animation: animate 8s linear infinite;
+    animation-delay: -1s;
+}
+.set2 div:nth-child(7) {
+    left:70%; animation: animate 7s linear infinite;
+}
+.set2 div:nth-child(8) {
+    left:80%; animation: animate 15s linear infinite;
+    animation-delay: -7s;
+}
+.set2 div:nth-child(9) {
+    left:90%; animation: animate 9s linear infinite;
+    animation-delay: -3s;
+}
+.set2 div:nth-child(10) {
+    left:95%; animation: animate 6s linear infinite;
+    animation-delay: -2s;
+}
+
+
+/* tility Clases */
+@keyframes animate {
+    0%{opacity: 0; top: 0;}
+    10%{opacity: 1;}
+    20%{opacity: 0.5; transform: translateX(-20px) rotate(45deg);}
+    40%{opacity: 1; transform: translateX(20px) rotate(90deg) ;}
+    60%{opacity: 0.6; transform: translate(-20px) rotate(180deg);}
+    80%{opacity: 0.9; transform: translate(20px) rotate(180deg);}
+    80%{top: 110%; transform: translate(-20px) rotate(225deg);}
+}
+
+/* Media Query */
+
+/* laptop */
+@media (max-width: 992px){
+    html {
+        font-size: 75%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 70px;
+    }
+}
+
+/* tablet */
+@media (max-width: 768px) {    
+    html {
+        font-size: 65%;
+    }
+    .simply-countdown>.simply-section {
+        padding: 60px;
+        margin: 5px;
+    }     
+    
+    .mynavbar .nav-link {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .simply-countdown .simply-section {
+        font-size: large;
+    }
+    
+    .info h2 {
+        margin-top: 30rem;
+    }
+
+    .hero h5 {
+        margin-bottom: 80px;
+    }
+    
+    .hero h1 {
+        font-size: 5rem;
+    }
+    
+    
+    .hero h4, .hero h5 {
+        font-size: 1.4rem;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400
+    }
+    
+    .hero p {
+        font-size: 1.4rem;
+        font-family: "Work Sans", sans-serif;
+        margin-top: 80px;
+    }
+    
+    .hero a {
+        color: white;
+        background-color: #00aeff;
+        box-shadow: var(--shadow);
+    }
+
+    .rsvp button {
+        width: 25%;margin-left: 37%;
+
+    }
+
+    .hero h1 {
+        font-size: 9rem;
+        margin-bottom: -2rem;
+        margin-top: -2rem;
+    }
+
+    .hero h2 {
+        font-size: 10rem;
+        margin-bottom: 1rem;
+    }
+
+    .home .couple h3 {
+        font-size: 260%;
+    }
+
+    .home .couple p {
+        font-size: 1.3rem;
+    }
+
+
+}
+
+/* mobile phone */
+@media (max-width: 576px) {
+    html {
+    font-size: 60%;}
+        
+    .simply-countdown>.simply-section {
+        padding: 45px;
+        margin: 3px;   
+    }
+
+    .home h3 {
+        margin-bottom: 7rem;
+    }
+
+    .home h4 {
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+    }
+
+    .home p, .info p, .rsvp p {
+        font-size: 1.28rem;
+    }
+
+    .hero h4, .hero h5, .hero p{
+        font-size:2.5rem;
+        letter-spacing: 1rem;
+    }
+
+    .info .card, .info a {
+        font-size: 117%;
+
+    }
+}
+
+/* iphone */
+@media (min-width: 414px) {
+    html{
+        font-size: 48%;
+    }
+
+    .simply-countdown>.simply-section {
+        padding: 20px;
+        margin: 1px;   
+    }
+
+    .hero h1 {
+        padding-right: 2rem;
+    }
+
+
+
+}
+@media (min-width: 390px) {
+    html{
+        font-size: 48%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .simply-countdown>.simply-section {
+        padding: 35px;
+        margin: 1px;   
+        margin-bottom: 5rem;
+        margin-top: -2rem;
+    }
+
+    .hero a {
+        font-size: 2rem;
+    }
+    
+    .mynavbar1{
+        width: 50vh;
+    }
+
+    .set2 {
+        position: absolute; width: 50%; height: auto;
+    }
+    .set {
+        position: absolute; width: 50%; height: auto;
+    }
+
+    .hero h4 {
+        margin-top: -10rem;
+    }
+
+    .home .couple .couple1 {
+        position: relative;
+        background-color: #000000;
+        height: 10px;
+    }
+    
+    .home .couple .couple12 {
+        position: relative;
+        bottom: 100px;
+    }
+
+
+
+
+}
