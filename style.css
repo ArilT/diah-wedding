@@ -509,4 +509,8 @@ body {
     .hero h4 {
         margin-top: -10rem;
     }
+
+    .home .couple {
+        margin-top: 60px;
+    }
 }
