@@ -479,7 +479,7 @@ body {
 }
 @media (min-width: 390px) {
     html{
-        font-size: 48%;
+        font-size: 46%;
         width: 100%;
         overflow-x: hidden;
     }
