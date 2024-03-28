@@ -112,6 +112,47 @@ body {
     animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
 
+.home .goyang6 {
+    z-index: -2;
+    position: absolute;
+    width: 30%;
+    margin-top: 190px;
+    animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.home .goyang4 {
+    z-index: -2;
+    position: absolute;
+    width: 25%;
+    margin-left: -70px;
+    margin-top: -50px;
+    animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.home .goyang5 {
+    z-index: -2;
+    position: absolute;
+    width: 50%;
+    margin-top: -100px;
+    animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.home .goyang3 {
+    z-index: -2;
+    position: absolute;
+    width: 25%;
+    margin-top: -90px;
+    margin-left: -50px;
+    animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+.home .goyang2 {
+    z-index: -2;
+    position: absolute;
+    width: 15%;
+    margin-top: -90px;
+    margin-left: -20px;
+    animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
 .home h2 {
     color: #00aeff;
     font-family: "Sacramento", cursive;
