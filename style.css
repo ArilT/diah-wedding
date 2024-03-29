@@ -25,7 +25,7 @@ body {
     background-image: url(img/wedding-1361076_1920.jpg);
     background-size: cover;
     background-position: center;
-    z-index: 3;
+    z-index: 7;
 
 }
 
@@ -65,9 +65,9 @@ body {
 
 .mynavbar {
     background-color: rgba(255, 255, 255, 0.5) !important;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
     position: sticky;
-    z-index: 4;
+    z-index: 6;
 }
 
 .mynavbar .offcanvas {
@@ -91,14 +91,14 @@ body {
     margin-top: -6.2rem;
     padding-top: 10rem;
     padding-bottom: 5rem;
-    z-index: 1;
+    z-index: 5;
     position: relative;
 }
 
 .home .goyang1 {
     z-index: -2;
     position: absolute;
-    width: 30%;
+    width: 35%;
     margin-top: -90px;
     animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
     
@@ -107,23 +107,16 @@ body {
 .home .goyang {
     z-index: -2;
     position: absolute;
-    width: 30%;
+    width: 35%;
     margin-top: -90px;
     animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
 
-.home .goyang6 {
-    z-index: -2;
-    position: absolute;
-    width: 30%;
-    margin-top: 190px;
-    animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
-}
 
 .home .goyang4 {
     z-index: -2;
     position: absolute;
-    width: 25%;
+    width: 30%;
     margin-left: -70px;
     margin-top: -50px;
     animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
@@ -140,7 +133,7 @@ body {
 .home .goyang3 {
     z-index: -2;
     position: absolute;
-    width: 25%;
+    width: 30%;
     margin-top: -90px;
     margin-left: -50px;
     animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
@@ -148,11 +141,75 @@ body {
 .home .goyang2 {
     z-index: -2;
     position: absolute;
-    width: 15%;
+    width: 20%;
     margin-top: -90px;
-    margin-left: -20px;
+    margin-left: -50px;
     animation: shake-tl 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
+
+.home .yang1 {
+    z-index: -2;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 35%;
+    margin-bottom: -50px;
+    animation: shake-br 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    
+}
+
+.home .yang {
+    z-index: -2;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 35%;
+    margin-bottom: -50px;
+    animation: shake-br 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.home .yang4 {
+    z-index: -2;
+    position: absolute;
+    width: 30%;
+    right: 0px;
+    bottom: 0px;
+    margin-right: -70px;
+    margin-bottom: -10px;
+    animation: shake-br 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.home .yang5 {
+    z-index: -2;
+    position: absolute;
+    width: 50%;
+    margin-bottom: -60px;
+    right: 0px;
+    bottom: 0px;
+    animation: shake-br 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.home .yang3 {
+    z-index: -2;
+    position: absolute;
+    width: 30%;
+    right: 0px;
+    bottom: 0px;
+    margin-right: -50px;
+    margin-bottom: -50px;
+    animation: shake-br 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+.home .yang2 {
+    z-index: -2;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 20%;
+    margin-right: -50px;
+    margin-bottom: -50px;
+    animation: shake-br 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
 .home h2 {
     color: #00aeff;
     font-family: "Sacramento", cursive;
@@ -197,12 +254,74 @@ body {
     z-index: 2;
 }
 
+.border {
+    position: relative;
+    background-color: #00aeff;
+    z-index: 2;
+}
+
 .info {
-    background-image: url(img/symphony1.png);
-    z-index: 1;
+    background-image: url(img/symphony.png);
+    z-index: 5;
     position: relative;
     min-height: 100vh;
 
+}
+
+.info .goyang1 {
+    z-index: -2;
+    position: absolute;
+    right: 0px;
+    width: 35%;
+    margin-top: -50px;
+    animation: shake-tr 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+    
+}
+
+.info .goyang {
+    z-index: -2;
+    position: absolute;
+    right: 0px;
+    width: 35%;
+    margin-top: -50px;
+    animation: shake-tr 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.info .goyang4 {
+    z-index: -2;
+    position: absolute;
+    width: 30%;
+    right: 0px;
+    margin-top: -10px;
+    animation: shake-tr 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.info .goyang5 {
+    z-index: -2;
+    position: absolute;
+    width: 50%;
+    margin-top: -60px;
+    right: 0px;
+    animation: shake-tr 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+
+.info .goyang3 {
+    z-index: -2;
+    position: absolute;
+    width: 30%;
+    right: 0px;
+    margin-right: -50px;
+    margin-top: -50px;
+    animation: shake-tr 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
+}
+.info .goyang2 {
+    z-index: -2;
+    position: absolute;
+    right: 0px;
+    width: 20%;
+    margin-right: -50px;
+    margin-top: -50px;
+    animation: shake-tr 20s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite both;
 }
 
 .info a {
@@ -250,7 +369,7 @@ body {
 .rsvp {
     background-image: url(img/symphony.png);
     min-height: 100vh;
-    z-index: 1;
+    z-index: 3;
     position: relative;
 }
 .rsvp h2 {
@@ -282,7 +401,7 @@ body {
 }
 
 .mynavbar1 {
-    z-index: 2;
+    z-index: 6;
     position: sticky;
 }
 
@@ -335,7 +454,7 @@ body {
     transform: scale(2);
 }
 .set img {
-    height: 15px; width: auto;
+    height: 20px; width: auto;
 }
 .set div {
     position: absolute;
@@ -352,7 +471,7 @@ body {
 }
 
 .set2 img {
-    height: 10px; width: auto;
+    height: 15px; width: auto;
 }
 .set2 div {
     position: absolute;
@@ -487,6 +606,60 @@ body {
     }
   }
 
+  @keyframes shake-tr {
+    0%,
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 100% 0;
+    }
+    10% {
+      transform: rotate(2deg);
+    }
+    20%,
+    40%,
+    60% {
+      transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+      transform: rotate(4deg);
+    }
+    80% {
+      transform: rotate(-2deg);
+    }
+    90% {
+      transform: rotate(2deg);
+    }
+  }
+  
+  @keyframes shake-br {
+    0%,
+    100% {
+      transform: rotate(0deg);
+      transform-origin: 100% 100%;
+    }
+    10% {
+      transform: rotate(2deg);
+    }
+    20%,
+    40%,
+    60% {
+      transform: rotate(-4deg);
+    }
+    30%,
+    50%,
+    70% {
+      transform: rotate(4deg);
+    }
+    80% {
+      transform: rotate(-2deg);
+    }
+    90% {
+      transform: rotate(2deg);
+    }
+  }
+  
   
 
 /* Media Query */
