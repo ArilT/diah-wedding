@@ -12,9 +12,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Rakkas&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Rakkas&family=Scheherazade+New:wght@400;500;600;700&display=swap" rel="stylesheet">
     
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 <!-- simplyCountdown -->
 <link rel="stylesheet" href="css/simplyCountdown.theme.default.css"/>
     <script src="dist/simplyCountdown.min.js"></script>
@@ -103,6 +105,8 @@
     <img src="img/1 (2).png" alt="logo" class="goyang">
     <img src="img/2-2.png" alt="logo" class="goyang5">
     <img src="img/0.png" alt="logo" class="goyang2">
+  </div>
+  <div class="bunga2">
     <img src="img/2 - Salin.png" alt="logo" class="yang1">
     <img src="img/2-1 - Salin.png" alt="logo" class="yang3">
     <img src="img/01 - Salin.png" alt="logo" class="yang4">
@@ -110,23 +114,24 @@
     <img src="img/1 (2) - Salin.png" alt="logo" class="yang">
     <img src="img/2-2 - Salin.png" alt="logo" class="yang5">
     <img src="img/0 - Salin.png" alt="logo" class="yang2">
+  </div>
     <img src="img/2 info - Salin.png" alt="logo" class="samping1">
     <img src="img/009.png" alt="logo" class="samping2">
   </div>
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-md-8 text-center">
-        <h2 class="animate__animated animate__slideInDown">Acara Pernikahan</h2>
-        <h3>Diselenggarakan pada 5 Mei 2024 di Palu, Sulawesi Tengah</h3>
-        <h4>بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</h4>
-        <p>Merupakan suatu kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kapada kedua mempelai</p>
+        <h2 class="judul">Acara Pernikahan</h2>
+        <h3 class=" isi">Diselenggarakan pada 5 Mei 2024 di Palu, Sulawesi Tengah</h3>
+        <h4 class="isi">بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</h4>
+        <p class="isi">Merupakan suatu kehormatan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kapada kedua mempelai</p>
       </div>
     </div>
     
     <div class="row couple">
       <div class="col-lg-6">
         <div class="row">
-          <div class="col-8 text-end">
+          <div class="col-8 text-end diah">
             <h3>Diah Ramayanti, S.Pd</h3>
             <p style="margin-top: -30px;">Putra dari Bpk. Mulyadi <br> & <br> Ibu Halima</p>
             <a href="https://www.instagram.com/diaaraa__/" target="_blank" class="btn btn">@diaara__</a>
@@ -142,7 +147,7 @@
           <div class="col-4">
             <img src="img/images.png" alt="Diah Ramayanti" class="img-responsive rounded-circle">
           </div>
-          <div class="col-8">
+          <div class="col-8 ansar">
             <h3>Halriansyar. M.A</h3>
             <p style="margin-top: -30px;">Putra dari Bpk. Muhammad Ali <br> & <br> Ibu Haspah</p>
             <a href="https://www.instagram.com/harliansyar_/" target="_blank" class="btn btn my-3">@harliansyar_</a>
@@ -273,6 +278,7 @@
       })
     </script>
 
+
 <script>
   const rootElement = document.querySelector(":root");
   function disableScroll() {
@@ -297,6 +303,20 @@
   }
 
   disableScroll ();
+</script>
+
+<script>
+  ScrollReveal({ 
+    reset: false,
+    duration: 1800,
+    distance: '200px'
+  });
+    
+    ScrollReveal().reveal('.judul', { delay: 50, origin: 'top' });
+    ScrollReveal().reveal('.isi', { delay: 50 });
+    ScrollReveal().reveal('.diah', { delay: 50, origin:'left' });
+    ScrollReveal().reveal('.ansar', { delay: 50, origin:'right' });
+    
 </script>
 
   </body>
