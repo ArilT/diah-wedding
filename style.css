@@ -79,7 +79,8 @@ button {
     box-shadow: 0 0 0 #ffffff;
     transition: all .3s ease-in-out;
     scale: 0.7;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   
   .star-1 {
@@ -330,7 +331,7 @@ button {
 }
 
 .info .waves1 {
-  bottom: -805px;
+  bottom: -822px;
 }
 
 .mynavbar {
