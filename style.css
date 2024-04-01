@@ -289,7 +289,7 @@ button {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  bottom: -730px;
+  bottom: -100rem;
 }
 
 .waves1 .wave {
