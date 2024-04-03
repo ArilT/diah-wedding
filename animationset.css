@@ -965,21 +965,3 @@
   .card:hover .mail {
     opacity: 0;
   }
-
-  .komen .card {
-    width: 400px;
-    margin: auto;
-    margin-top: -60px;
-    border: none;
-    pointer-events: none;
-    z-index: -3;
-    position: relative;
-  }
-
-  .komen h1 {
-    color: #00aeff;
-    font-family: "Sacramento", cursive;
-    font-size: 5rem;
-    font-weight: bold;
-    z-index: 2;
-  }
