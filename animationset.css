@@ -225,6 +225,7 @@
   /* homeFlower */
   .bunga, .bunga2 {
     z-index: -2;
+    pointer-events: none;
   }
   .home .bunga {
       overflow-x: hidden;
