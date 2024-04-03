@@ -36,12 +36,15 @@ body {
 
 }
 
-.hero h1, .hero h4, .hero p, .hero h5, .hero h2 {
+.hero h1, .hero h4, .hero p, .hero h5, .hero h2, .hero h3 {
   text-shadow: var(--shadow);
 }
 
 .hero h2 {
   padding-bottom: 2.5rem;
+  font-size: 1.4rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400
 }
 
 .hero h1, .hero h2 {
@@ -53,12 +56,24 @@ body {
 .hero h4, .hero h5 {
   font-size: 1.4rem;
   font-family: "Work Sans", sans-serif;
+  letter-spacing: 1rem;
   font-weight: 400
+}
+
+.hero h3 {
+    font-family: "Work Sans";
+    font-weight: 400;
+}
+
+.hero h3 span {
+    font-family: "Work Sans";
+    font-weight: 400;
 }
 
 .hero p {
   font-size: 1.4rem;
   font-family: "Work Sans", sans-serif;
+  letter-spacing: 1rem;
 }
 
 /* navBar */
@@ -175,6 +190,33 @@ body {
     font-weight: 300;
 }
 
+/* komen */
+.komen {
+    background-image: url(img/symphony.png);
+    min-height: 100vh;
+    margin-top: -1rem;
+    z-index: 1;
+    position: relative;
+}
+
+.komen .card {
+    width: 400px;
+    margin: auto;
+    margin-top: -60px;
+    border: none;
+    pointer-events: none;
+    z-index: -3;
+    position: relative;
+  }
+
+  .komen h1 {
+    color: #00aeff;
+    font-family: "Sacramento", cursive;
+    font-size: 5rem;
+    font-weight: bold;
+    z-index: 2;
+  }
+
 /* Media Query */
 
 /* laptop */
@@ -214,10 +256,10 @@ body {
     }
     
     
-    .hero h4, .hero h5 {
+    .hero h4, .hero h5{
         font-size: 1.4rem;
         font-family: "Work Sans", sans-serif;
-        font-weight: 400
+        font-weight: 400;
     }
     
     .hero p {
@@ -282,9 +324,8 @@ body {
         font-size: 1.28rem;
     }
 
-    .hero h4, .hero h5, .hero p{
+    .hero h4, .hero h5, .hero p, .hero h3{
         font-size:2.5rem;
-        letter-spacing: 1rem;
     }
 
     .info a {
