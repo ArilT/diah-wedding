@@ -42,6 +42,7 @@
         <main>
             <h4 class="animate__animated animate__slideInDown">THE</h4>
             <h5 class="animate__animated animate__slideInDown">WEDDING</h5>
+            <h3 class="animate__animated animate__slideInDown">Kepada <span></span></h3>
             <h1 class="mt-5 text-start animate__animated animate__slideInLeft">Diah</h1>
             <h2 class="animate__animated animate__zoomIn">&</h2>
             <h1 class="mb-5 text-end animate__animated animate__slideInRight">Harli</h1>
@@ -358,6 +359,66 @@
   agar kamu mengingat (kebesaran Allah)." (QS. Az Zariyat: 49).</a>
 </nav>
 
+<section class="komen">
+  <div class="wave semua" id="wave1"></div>
+  <div class="wave semua" id="wave2"></div>
+  <div class="wave semua" id="wave3"></div>
+  <div class="wave semua" id="wave4"></div>
+  <div class="wave1 semua" id="wave1"></div>
+  <div class="wave1 semua" id="wave2"></div>
+  <div class="wave1 semua" id="wave3"></div>
+  <div class="wave1 semua" id="wave4"></div>   
+  <div class="bunga">
+    <img src="img/2.png" alt="logo" class="goyang1">
+    <img src="img/2-1.png" alt="logo" class="goyang3">
+    <img src="img/01.png" alt="logo" class="goyang4">
+    <img src="img/1.png" alt="logo" class="goyang1">
+    <img src="img/1 (2).png" alt="logo" class="goyang">
+    <img src="img/2-2.png" alt="logo" class="goyang5">
+    <img src="img/0.png" alt="logo" class="goyang2">
+  </div>
+  <div class="bunga2">
+    <img src="img/2 - Salin.png" alt="logo" class="yang1">
+    <img src="img/2-1 - Salin.png" alt="logo" class="yang3">
+    <img src="img/01 - Salin.png" alt="logo" class="yang4">
+    <img src="img/1 - Salin.png" alt="logo" class="yang1">
+    <img src="img/1 (2) - Salin.png" alt="logo" class="yang">
+    <img src="img/2-2 - Salin.png" alt="logo" class="yang5">
+    <img src="img/0 - Salin.png" alt="logo" class="yang2">
+  </div>
+    <img src="img/2 info - Salin.png" alt="logo" class="samping1">
+    <img src="img/009.png" alt="logo" class="samping2">
+  <div class="card justify-content-center mt-5 komen">
+    <h1 class="text-center">Ucapan & Doa</h1>
+    <div class="col-md-6">
+      <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://diahwedding.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </div>
+</section>
+
+<nav class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
+  <a class="navbar-brand text-center">"Dan segala sesuatu Kami ciptakan berpasang-pasangan<br>
+  agar kamu mengingat (kebesaran Allah)." (QS. Az Zariyat: 49).</a>
+</nav>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
       simplyCountdown('.simply-countdown', {
@@ -422,6 +483,14 @@
     ScrollReveal().reveal('.diah', { delay: 50, origin:'left' });
     ScrollReveal().reveal('.ansar', { delay: 50, origin:'right' });
     
+</script>
+
+<script>
+  const urlParams = new URLSearchParams(window.location.search);
+  const n = urlParams.get ('n') || 'Bapak/Ibu/Saudara/i';
+
+  const namaContainer = document.querySelector('.hero h3 span')
+  namaContainer.innerText = n;
 </script>
 
   </body>
