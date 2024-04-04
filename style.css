@@ -97,6 +97,16 @@ body {
   opacity: 0.8;
 }
 
+.mynavbar .navbar-brand1 {
+  font-family: "Sacramento", cursive;
+  position: absolute;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: var(--shadow);
+  color: #ffffff;
+  opacity: 0.8;
+}
+
 /* Home */
 .home {
     background-image: url(img/symphony.png);

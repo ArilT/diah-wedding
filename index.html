@@ -211,8 +211,8 @@
 </section>
 
 <nav class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
-  <a class="navbar-brand text-center">"Dan segala sesuatu Kami ciptakan berpasang-pasangan<br>
-  agar kamu mengingat (kebesaran Allah)." (QS. Az Zariyat: 49).</a>
+  <a class="navbar-brand text-center">"Nikah adalah sunnahku (tuntunanku). Maka barang siapa yang tidak suka<br>
+  dengan sunnahku (itu) bukanlah dia dari golonganku". (HR. Ibnu Majah).</a>
 </nav>
 
 
@@ -355,8 +355,8 @@
 </section>
 
 <nav class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
-  <a class="navbar-brand text-center">"Dan segala sesuatu Kami ciptakan berpasang-pasangan<br>
-  agar kamu mengingat (kebesaran Allah)." (QS. Az Zariyat: 49).</a>
+  <a class="navbar-brand text-center">"Dari Ibnu Abbas RA, Rasulullah SAW bersabda:<br>
+  "Carilah rezeki dengan menikah." (HR Ad-Dailami).</a>
 </nav>
 
 <section class="komen">
@@ -415,9 +415,12 @@
 </section>
 
 <nav class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
-  <a class="navbar-brand text-center">"Dan segala sesuatu Kami ciptakan berpasang-pasangan<br>
-  agar kamu mengingat (kebesaran Allah)." (QS. Az Zariyat: 49).</a>
+  <a class="navbar-brand1 text-center">Terima Kasih</a>
 </nav>
+
+<audio id="song" autoplay loop>
+  <source src="lagu/lagu.mp3" type="audio/mp3">
+</audio>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script>
@@ -454,11 +457,12 @@
   function enableScroll () {
     window.onscroll = function () { }
     rootElement.style.scrollBehavior = 'Smooth';
-    localStorage.setItem('opened', 'true');
+    playAudio();
   }
 
-  if(!localStorage.getItem('opened')) {
-    disableScroll();
+  function playAudio() {
+    const song = document.querySelector('#song')
+    song.play();
   }
 
   disableScroll ();
