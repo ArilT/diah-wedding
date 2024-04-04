@@ -819,15 +819,17 @@
     stroke: #f55d56;
   }
   .c2 .card .profile-pic {
-    background-image: url(img/gg.png );
-    scale: 1.2;
+    background-image: url(img/gg.gif );
+    scale: 1;
+    background-size: cover;
+    background-position: top;
   }
   .card .profile-pic {
     position: absolute;
-    scale: 0.7;
+    scale: 1;
     width: calc(100% - 6px);
     height: calc(100% - 6px);
-    background-image: url(img/pngegg\ \(1\).png);
+    background-image: url(img/pngegg-\(1\).gif);
     background-size: cover;
     background-position: center;
     top: 3px;
