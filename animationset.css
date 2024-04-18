@@ -223,9 +223,13 @@
     position: sticky;
   }
   /* homeFlower */
+  .samping1, .samping2 {
+    filter: drop-shadow(5px 5px 20px rgb(201, 201, 201));
+  }
   .bunga, .bunga2 {
     z-index: -2;
     pointer-events: none;
+    filter: drop-shadow(10px 10px 10px solid black);
   }
   .home .bunga {
       overflow-x: hidden;
@@ -776,14 +780,17 @@
     z-index: 2;
   }
   .fil0 {
-    fill: #00aeff
+    fill: #00aeff;
+    border: 3px dashed whitesmoke ;
   }
-  
+  .isi {
+    color: #F3E9A8;
+  }
   /* infoButton */
   .info button {
     scale: 0.4;
     color: #0a0a0a;
-    border: 3px solid #0a0a0a;
+    border: 3px solid #F3E9A8;
   }
   
   
@@ -869,6 +876,7 @@
     z-index: 2;
     overflow: hidden;
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    border: 2px dashed whitesmoke;
   }
   .card .bottom .content {
     position: absolute;
@@ -877,11 +885,15 @@
     right: 1.5rem;
     height: 160px;
     margin: auto;
+    display: none;
+  }
+  .card:hover .bottom .content {
+    display: unset;
   }
   .card .bottom .content .name {
     display: block;
     font-size: 1.2rem;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     margin:auto;
     font-size: 3.2rem;
@@ -895,7 +907,7 @@
   }
   .card .bottom .bottom-bottom {
     position: absolute;
-    bottom: 1rem;
+    bottom: 0;
     left: 1.5rem;
     right: 1.5rem;
     display: flex;
@@ -908,7 +920,7 @@
     margin: auto;
     font-family: "Sacramento";
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #F3E9A8;
     font-size: 4rem;
   }
   .card .bottom .bottom-bottom .social-links-container svg {

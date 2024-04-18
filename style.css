@@ -57,17 +57,16 @@ body {
   font-size: 1.4rem;
   font-family: "Work Sans", sans-serif;
   letter-spacing: 1rem;
-  font-weight: 400
+  font-weight: 400;
 }
 
 .hero h3 {
-    font-family: "Work Sans";
+    font-family: "Work Sans", sans-serif;
     font-weight: 400;
 }
 
 .hero h3 span {
-    font-family: "Work Sans";
-    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
 }
 
 .hero p {
@@ -78,10 +77,10 @@ body {
 
 /* navBar */
 .mynavbar {
-  background-color: #3586ff;
+  background-color: #15A8F5;
   position: relative;
   z-index: 7;
-  height: 100px;
+  height: 60px;
   text-align: center;
   font-family: "Work Sans";
 }
@@ -98,18 +97,17 @@ body {
 }
 
 .mynavbar .navbar-brand1 {
-  font-family: "Sacramento", cursive;
+  font-family: "Sacramento";
   position: absolute;
   font-size: 4rem;
   font-weight: bold;
-  text-shadow: var(--shadow);
   color: #ffffff;
   opacity: 0.8;
 }
 
 /* Home */
 .home {
-    background-image: url(img/symphony.png);
+    background-image: linear-gradient(rgb(45, 125, 205) 25%, rgb(163, 221, 240) 50%, dodgerblue);
     min-height: 100vh;
     margin-top: -1rem;
     padding-top: 10rem;
@@ -119,7 +117,7 @@ body {
 }
 
 .home h2 {
-    color: #00aeff;
+    color: #F3E9A8;
     font-family: "Sacramento", cursive;
     font-size: 5rem;
     font-weight: bold;
@@ -127,7 +125,7 @@ body {
 }
 
 .home h3 {
-    color: #444;
+    color: whitesmoke;
     font-size: 1.5rem;
     margin-bottom: 3rem;
     z-index: 2;
@@ -136,11 +134,12 @@ body {
 .home h4 {
     font-family: "Scheherazade New", serif;
     font-size: 2rem;
+    color: #F3E9A8;
 }
 
 .home p {
     font-size: 1.1rem;
-    color: #666;
+    color:whitesmoke;
     z-index: 2;
 }
 
@@ -152,7 +151,7 @@ body {
 .home .couple h3 {
     font-family: "Sacramento";
     font-weight: bold;
-    color: #00aeff;
+    color: #F3E9A8;
     font-size: 2.4rem;
     z-index: 2;
 }
@@ -161,6 +160,9 @@ body {
     width: 100%;
     z-index: 2;
 }
+.couple a {
+    color: whitesmoke;
+}
 
 /* info */
 .info {
@@ -168,14 +170,7 @@ body {
     z-index: 3;
     position: relative;
     min-height: 100vh;
-
-}
-
-.info a {
-    background-color: #00aeff;
-    color: rgb(0, 0, 0);
-    font-family: "Work Sans", sans-serif;
-    position: relative;
+    background-image: linear-gradient(rgb(45, 125, 205) 25%, rgb(163, 221, 240) 50%, dodgerblue);
 }
 
 .info h2 {
@@ -183,7 +178,7 @@ body {
     font-family: "Sacramento";
     margin-top: 12rem;
     font-weight: bold;
-    color: #00aeff;
+    color: #F3E9A8;
     font-size: 5rem;
 }
 
@@ -191,26 +186,22 @@ body {
     position: relative;
     font-size: 1.2rem;
     font-family: "Work Sans", sans-serif;
-    color: rgb(0, 0, 0);
+    color: whitesmoke;
 }
-
-.info .description {
-    position: relative;
-    font-size: 1rem;
-    font-weight: 300;
+.info h1 {
+    color: whitesmoke;
 }
-
 /* komen */
 .komen {
-    background-image: url(img/symphony.png);
     min-height: 100vh;
     margin-top: -1rem;
     z-index: 1;
     position: relative;
+    background-image: linear-gradient(rgb(45, 125, 205) 25%, rgb(163, 221, 240) 50%, dodgerblue);
 }
 
 .komen .card {
-    width: 300px;
+    width: 75%;
     margin: auto;
     margin-top: -60px;
     border: none;
@@ -219,22 +210,65 @@ body {
   }
 
   .komen h1 {
-    color: #00aeff;
+    color: #F3E9A8;
     font-family: "Sacramento", cursive;
     font-size: 5rem;
     font-weight: bold;
     z-index: 2;
+    margin-bottom: 4rem;
   }
 
 /* Media Query */
 
 /* laptop */
+@media (min-width: 996px) {
+    html {
+        font-size:75%;
+        overflow-y: scroll;
+    }
+    .goyang, .goyang1,  .goyang2, .goyang3, .goyang4, .goyang5, .yang, .yang1, .yang2, .yang3, .yang4, .yang5, .samping1, .samping2 {
+        scale: 0.47;
+    }
+    .samping1, .samping2 {
+        display: none;
+    }
+    .card .bottom .bottom-bottom .social-links-container {
+        font-size: 2.5rem !important;
+    }
+    .card .bottom .content {
+        top: -3rem !important;
+    }
+    .mynavbar {
+        height: 100px;
+    }
+    .mynavbar a {
+        font-size: 1.3rem !important;
+    }
+    .mynavbar a#ini {
+        font-size: 2rem !important;
+    }
+    .wave, .wave1 {
+        height: 115px !important;
+        width: 100%;
+    }
+    .info .card h1 {
+        display: none;
+    }
+    .info button {
+        margin-bottom: 0;
+    }
+    .c2 {
+        margin-bottom: 3rem;
+    }
+    .komen .card{
+        width: 100%;
+        margin: auto;
+    }
+}
 @media (max-width: 992px){
     html {
         font-size: 75%;
-    }
-    .simply-countdown>.simply-section {
-        padding: 70px;
+        overflow-y: scroll;
     }
 }
 
@@ -304,14 +338,19 @@ body {
     }
 
     .home .couple p {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
 
 }
+@media (min-width:550px) and (max-width:550px) {
+    .goyang, .goyang1,  .goyang2, .goyang3, .goyang4, .goyang5, .yang, .yang1, .yang2, .yang3, .yang4, .yang5, .samping1, .samping2 {
+        scale: 0.5;
+    }
+}
 
 /* mobile phone */
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     html {
     font-size: 60%;}
         
@@ -344,7 +383,7 @@ body {
 }
 
 /* iphone */
-@media (min-width: 414px) {
+@media (max-width:768px) {
     html{
         font-size: 48%;
     }
@@ -361,7 +400,7 @@ body {
 
 
 }
-@media (min-width: 390px) {
+@media (max-width:768px) {
     html{
         font-size: 46%;
         width: 100%;
@@ -391,7 +430,7 @@ body {
     }
 
     .hero h4 {
-        margin-top: -3rem;
+        margin-top: 6rem;
     }
 
     .home .couple {
