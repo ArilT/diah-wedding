@@ -85,7 +85,7 @@ body {
   font-family: "Work Sans";
 }
 
-.mynavbar .navbar-brand {
+.mynavbar .tabe {
   font-family: "Work Sans";
   position: absolute;
   font-size: 1.5rem;
@@ -113,6 +113,7 @@ body {
     padding-top: 10rem;
     padding-bottom: 5rem;
     z-index: 1;
+    margin: auto 0;
     position: relative;
 }
 
@@ -133,7 +134,7 @@ body {
 
 .home h4 {
     font-family: "Scheherazade New", serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #F3E9A8;
 }
 
@@ -184,7 +185,7 @@ body {
 
 .info .alamat  {
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-family: "Work Sans", sans-serif;
     color: whitesmoke;
 }
@@ -201,18 +202,18 @@ body {
 }
 
 .komen .card {
-    width: 75%;
+    width: 100%;
     margin: auto;
     margin-top: -60px;
     border: none;
     z-index: -3;
-    position: relative;
+    position: absolute;
   }
 
   .komen h1 {
     color: #F3E9A8;
     font-family: "Sacramento", cursive;
-    font-size: 5rem;
+    font-size: 6rem;
     font-weight: bold;
     z-index: 2;
     margin-bottom: 4rem;
@@ -256,6 +257,7 @@ body {
     }
     .info button {
         margin-bottom: 0;
+        scale: 4 !important;
     }
     .c2 {
         margin-bottom: 3rem;
@@ -333,12 +335,16 @@ body {
         margin-bottom: 1rem;
     }
 
+    .home .couple {
+        margin: auto;
+    }
+
     .home .couple h3 {
-        font-size: 260%;
+        font-size: 4.5rem;
     }
 
     .home .couple p {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
 
@@ -364,12 +370,17 @@ body {
     }
 
     .home h4 {
-        font-size: 2.8rem;
+        font-size: 4rem;
         margin-bottom: 20px;
+        margin-top: 10rem;
     }
 
     .home p, .info p, .rsvp p {
-        font-size: 1.28rem;
+        font-size: 2rem;
+    }
+
+    .home p {
+        margin-top: 4rem;
     }
 
     .hero h4, .hero h5, .hero p, .hero h3{
@@ -413,7 +424,9 @@ body {
         margin-bottom: 2rem;
         margin-top: -2rem;
     }
-
+    .info h2 {
+        font-size: 6rem;
+    }
     .hero a {
         font-size: 2rem;
     }
@@ -435,6 +448,24 @@ body {
 
     .home .couple {
         margin-top: 73px;
+    }
+
+    .home .couple a {
+        margin-top: -4rem;
+    }
+
+    .home .couple .ansar {
+        margin-top: 2rem;
+    }
+
+    .home .couple .ansar a {
+        margin-top: -4rem !important;
+    }
+    .name {
+        font-size: 4rem !important;
+    }
+    .about-me {
+        font-size: 3rem !important;
     }
 
 }
