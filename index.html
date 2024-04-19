@@ -17,98 +17,86 @@
     
     <script src="https://unpkg.com/scrollreveal"></script>
 
-<!-- simplyCountdown -->
-<link rel="stylesheet" href="css/simplyCountdown.theme.default.css"/>
+    <!-- simplyCountdown -->
+    <link rel="stylesheet" href="css/simplyCountdown.theme.default.css"/>
     <script src="dist/simplyCountdown.min.js"></script>
-
-
+    <!-- animateStyle -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="animationset.css">
   </head>
   
-
-<!-- animateStyle -->
-<head>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-</head>
-
-  <body>
-
+  <body>  
     <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white animate_animated animate__slideInDown ">
-        <main>
-            <h4 class="animate__animated animate__slideInDown">THE</h4>
-            <h5 class="animate__animated animate__slideInDown">WEDDING</h5>
-            <h3 class="animate__animated animate__slideInDown">Kepada <span></span></h3>
-            <h1 class="mt-5 text-start animate__animated animate__slideInLeft">Diah</h1>
-            <h2 class="animate__animated animate__zoomIn">&</h2>
-            <h1 class="mb-5 text-end animate__animated animate__slideInRight">Harli</h1>
-            <p class="animate__animated animate__zoomIn">BEGIN</p>
-            <div class="simply-countdown animate__animated animate__zoomIn"></div>
-            <button onclick="enableScroll ()">BUKA
-              <div class="star-1">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25" height="25">
-              <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
-                c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
-                c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
-                C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
-            </svg>
-            
-            
-              </div>
-              <div class="star-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20">
-              <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
-                c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
-                c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
-                C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
-            </svg>
-            
-              </div>
-              <div class="star-3">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="9" height="9">
-              <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
-                c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
-                c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
-                C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
-            </svg>
-            
-              </div>
-              <div class="star-4">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10" height="10">
-              <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
-                c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
-                c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
-                C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
-            </svg>
-            
-              </div>
-              <div class="star-5">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20">
-              <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
-                c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
-                c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
-                C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
-            </svg>
-            
-              </div>
-              <div class="star-6">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="7" height="7">
-              <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
-                c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
-                c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
-                C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
-            </svg>
-            
-              </div>
-            </button>        
-        </main>
-    </section>
-    
-    
+      <main>
+          <h4 class="animate__animated animate__slideInDown">THE</h4>
+          <h5 class="animate__animated animate__slideInDown">WEDDING</h5>
+          <h3 class="animate__animated animate__slideInDown">Kepada <span></span></h3>
+          <h1 class="mt-5 text-start animate__animated animate__slideInLeft">Diah</h1>
+          <h2 class="animate__animated animate__zoomIn">&</h2>
+          <h1 class="mb-5 text-end animate__animated animate__slideInRight">Harli</h1>
+          <p class="animate__animated animate__zoomIn">BEGIN</p>
+          <div class="simply-countdown animate__animated animate__zoomIn"></div>
+          <button id="tomb" onclick="enableScroll ()">Buka
+            <div class="star-1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25" height="25">
+            <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
+              c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
+              c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
+              C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
+          </svg>
+          
+          
+            </div>
+            <div class="star-2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20">
+            <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
+              c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
+              c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
+              C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
+          </svg>
+          
+            </div>
+            <div class="star-3">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="9" height="9">
+            <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
+              c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
+              c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
+              C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
+          </svg>
+          
+            </div>
+            <div class="star-4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10" height="10">
+            <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
+              c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
+              c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
+              C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
+          </svg>
+          
+            </div>
+            <div class="star-5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20" height="20">
+            <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
+              c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
+              c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
+              C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
+          </svg>
+          
+            </div>
+            <div class="star-6">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="7" height="7">
+            <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
+              c-47.803-47.803-125.213-47.803-173.016,0c-47.803,47.803-47.803,125.213,0,173.016l190.103,190.103
+              c4.88,4.88,11.316,7.322,17.752,7.322c6.435,0,13.871-2.442,18.751-7.322l190.103-190.103
+              C475.116,213.899,475.116,136.489,427.313,88.686z"></path>
+          </svg>
+          
+            </div>
+          </button>        
+      </main>
+  </section>
     <section style="height: 5rem;" class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
     </section>
 
@@ -250,7 +238,7 @@
       <div class="col-md-8 col-10 text-center">
         <h2 class="judul">Informasi Acara</h2>
         <p class="alamat isi">Alamat: Gedung Almuhsinin Alkhairaat. <br> Jl. Sis Al Jufri, Siranindi, Kec. Palu Barat, Kota Palu</p>
-        <button class="isi" onclick="location.href='https://maps.app.goo.gl/4LJ39JfbivMiJzbs8'"><h1 style="color: #F3E9A8;">PETA</h1>
+        <button id="tomb" class="isi" onclick="location.href='https://maps.app.goo.gl/4LJ39JfbivMiJzbs8'"><h1 style="color: #F3E9A8;">Peta</h1>
           <div class="star-1">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="25" height="25">
           <path fill="#00aeff" d="M427.313,88.686c-47.803-47.803-125.213-47.803-173.016,0l-17.087,17.087l-17.087-17.087
@@ -387,11 +375,38 @@
   </div>
     <img src="img/2 info - Salin.png" alt="logo" class="samping1">
     <img src="img/009.png" alt="logo" class="samping2">
-  <div class="card justify-content-center mt-5 komen">
-    <h1 class="text-center">Ucapan & Doa</h1>
-    <script defer src="https://cdn.commento.io/js/commento.js"></script>
-<div id="commento"></div>
-  </div>
+    <div class="popup-outer">
+      <div class="popup-box">
+        <i class="bx bx-x close"></i>
+        <div class="comen">
+          <script defer src="https://cdn.commento.io/js/commento.js"></script>
+          <div id="commento"></div>
+        </div>
+      </div>
+    </div>
+    <h1 id="doa" class="text-center">Ucapan & Doa</h1>
+    <p>Doa Restu Anda merupakan karunia yang sangat berarti bagi kami. Berikan ucapan terbaik anda untuk kedua pembelai
+    </p>
+    <button>
+      <div class="svg-wrapper-1">
+        <div class="svg-wrapper">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+          >
+            <path fill="none" d="M0 0h24v24H0z"></path>
+            <path
+              fill="currentColor"
+              d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+      <span>Kirim Ucapan</span>
+    </button>
+    <h1 class="text-center">Amplop Digital</h1>
 </section>
 
 <nav class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
@@ -459,8 +474,9 @@
     ScrollReveal().reveal('.judul1', { delay: 50, origin: 'top', distance: '2rem' });
     ScrollReveal().reveal('.home .bunga', { delay: 50, origin: 'top' });
     ScrollReveal().reveal('.home .bunga2', { duration:2500, delay: 250, origin: 'bottom' });
+    ScrollReveal().reveal('.komen .bunga', { delay: 50, origin: 'top' });
+    ScrollReveal().reveal('.komen .bunga2', { duration:2500, delay: 250, origin: 'bottom' });
     ScrollReveal().reveal('.info .bunga', { delay: 50, origin: 'right' });
-    ScrollReveal().reveal('.info .bunga2', { duration:2500, delay: 250, origin: 'left' });
     ScrollReveal().reveal('.samping1', { duration:2500, delay: 250, origin: 'left' });
     ScrollReveal().reveal('.samping2', { duration:2500, delay: 250, origin: 'left' });
     ScrollReveal().reveal('.isi', { delay: 50 });

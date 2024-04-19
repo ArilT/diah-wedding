@@ -3,7 +3,6 @@
     --bg: #0a0a0a;
     --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
-
 body {
     font-size: 1.2rem;
     font-family: "Work Sans", sans-serif;
@@ -12,19 +11,10 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    
+    position: relative;
 }
 
 /* Hero */
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
 
 .hero {
   position: relative;
@@ -32,8 +22,7 @@ body {
   background-image: url(img/wedding-1361076_1920.jpg);
   background-size: cover;
   background-position: center;
-  z-index: 7;
-
+  z-index: 8
 }
 
 .hero h1, .hero h4, .hero p, .hero h5, .hero h2, .hero h3 {
@@ -124,7 +113,38 @@ body {
     font-weight: bold;
     z-index: 2;
 }
-
+.popup-outer {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup-box{
+    height: 70%;
+    width:80%;
+    background-color: white;
+    border-radius: 3%;
+    border: 5px dashed #F3E9A8;
+}
+.popup-box .close {
+    font-size: 24px;
+    top: 16%;
+    right: 14%;
+    position: absolute;
+    z-index: 2;
+    color: #c22727;
+}
+.comen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
 .home h3 {
     color: whitesmoke;
     font-size: 1.5rem;
@@ -138,7 +158,7 @@ body {
     color: #F3E9A8;
 }
 
-.home p {
+.home p, .komen p {
     font-size: 1.1rem;
     color:whitesmoke;
     z-index: 2;
@@ -201,22 +221,14 @@ body {
     background-image: linear-gradient(rgb(45, 125, 205) 25%, rgb(163, 221, 240) 50%, dodgerblue);
 }
 
-.komen .card {
-    width: 100%;
-    margin: auto;
-    margin-top: -60px;
-    border: none;
-    z-index: -3;
-    position: absolute;
-  }
-
-  .komen h1 {
+  .komen h1#doa {
     color: #F3E9A8;
     font-family: "Sacramento", cursive;
     font-size: 6rem;
     font-weight: bold;
-    z-index: 2;
-    margin-bottom: 4rem;
+    z-index: 1;
+    position: relative;
+    margin-top: 7rem;
   }
 
 /* Media Query */
@@ -375,8 +387,8 @@ body {
         margin-top: 10rem;
     }
 
-    .home p, .info p, .rsvp p {
-        font-size: 2rem;
+    .home p, .info p, .rsvp p, .komen p {
+        font-size: 1.8rem !important;
     }
 
     .home p {
@@ -392,7 +404,10 @@ body {
 
     }
 }
-
+    .komen p {
+        margin: 3rem;
+        text-align: center;
+    }
 /* iphone */
 @media (max-width:768px) {
     html{
