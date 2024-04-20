@@ -308,9 +308,6 @@ body {
     transform: scale(1);
   }
 /* Media Query */
-section {
-    overflow: hidden !important;
-}
 
 /* laptop */
 @media (min-width: 996px) {
