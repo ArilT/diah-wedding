@@ -88,12 +88,15 @@ body {
 .mynavbar .navbar-brand1 {
   font-family: "Sacramento";
   position: absolute;
-  font-size: 4rem;
+  font-size: 4.5rem;
   font-weight: bold;
-  color: #ffffff;
-  opacity: 0.8;
+  color: #F3E9A8;
+  opacity: 1;
 }
+.mengaj svg:hover {
+    color: #F3E9A8;
 
+}
 /* Home */
 .home {
     background-image: linear-gradient(rgb(45, 125, 205) 25%, rgb(163, 221, 240) 50%, dodgerblue);
@@ -131,7 +134,6 @@ body {
 .popup-outer1 {
     height: 100%;
     width: 100%;
-    margin-top: -35rem;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.3);
     z-index: 1;
@@ -254,24 +256,45 @@ body {
 .info h1 {
     color: whitesmoke;
 }
+.navbar-toggler{
+    border: none;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.show3 .navbar-toggler {
+    opacity: 10;
+    cursor: pointer;
+}
+.navbar-toggler-icon{
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 1.6rem;
+}
+.navbar-toggler-icon svg {
+    width: 24px;
+    height: 24px;
+    margin: auto
+}
 /* komen */
 .komen {
     margin-top: -1rem;
+    min-height: 100vh;
     z-index: 1;
     position: relative;
     background-image: linear-gradient(rgb(45, 125, 205) 25%, rgb(163, 221, 240) 50%, dodgerblue);
 }
-
   .komen h1 {
     color: #F3E9A8;
     font-family: "Sacramento", cursive;
     font-size: 6rem;
     font-weight: bold;
     position: relative;
-    margin-top: 7rem;
+    margin-top: 8rem;
   }
-  #doa {
-    z-index: 1;
+  .pengisi {
     margin-top: 20%;
   }
   .show .popup-outer {
