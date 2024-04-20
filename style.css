@@ -309,7 +309,7 @@ body {
   }
 /* Media Query */
 section {
-    overflow: hidden;
+    overflow: hidden !important;
 }
 
 /* laptop */
