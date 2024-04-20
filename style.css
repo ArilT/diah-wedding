@@ -8,23 +8,21 @@ body {
     font-family: "Work Sans", sans-serif;
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
     display: flex;
+    overflow-x: hidden;
     flex-direction: column;
-    position: relative;
 }
-section {
-    overflow : hidden;
-}
-/* Hero */
 
+/* Hero */
 .hero {
   position: relative;
   min-height: 100vh;
   background-image: url(img/wedding-1361076_1920.jpg);
   background-size: cover;
   background-position: center;
-  z-index: 8
+  z-index: 8;
+  width: 100%;
+  overflow: hidden;
 }
 
 .hero h1, .hero h4, .hero p, .hero h5, .hero h2, .hero h3 {
@@ -239,6 +237,7 @@ section {
     background-image: url(img/symphony.png);
     z-index: 3;
     position: relative;
+    overflow: hidden;
     min-height: 100vh;
     background-image: linear-gradient(rgb(45, 125, 205) 25%, rgb(163, 221, 240) 50%, dodgerblue);
 }
@@ -289,6 +288,7 @@ section {
     min-height: 100vh;
     z-index: 1;
     position: relative;
+    overflow: hidden;
     background-image: linear-gradient(rgb(45, 125, 205) 25%, rgb(163, 221, 240) 50%, dodgerblue);
 }
   .komen h1 {
@@ -308,6 +308,9 @@ section {
     transform: scale(1);
   }
 /* Media Query */
+section {
+    overflow: hidden;
+}
 
 /* laptop */
 @media (min-width: 996px) {
@@ -505,7 +508,6 @@ section {
     html{
         font-size: 46%;
         width: 100%;
-        overflow-x: hidden;
     }
 
     .simply-countdown>.simply-section {
