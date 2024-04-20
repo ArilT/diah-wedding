@@ -32,10 +32,10 @@
       <main>
           <h4 class="animate__animated animate__slideInDown">THE</h4>
           <h5 class="animate__animated animate__slideInDown">WEDDING</h5>
-          <h3 class="animate__animated animate__slideInDown">Kepada <span></span></h3>
           <h1 class="mt-5 text-start animate__animated animate__slideInLeft">Diah</h1>
           <h2 class="animate__animated animate__zoomIn">&</h2>
-          <h1 class="mb-5 text-end animate__animated animate__slideInRight">Harli</h1>
+          <h1 id="Harli" class="mb-5 text-end animate__animated animate__slideInRight">Harli</h1>
+          <h3 class="animate__animated animate__slideInDown">Kepada <span></span></h3>
           <p class="animate__animated animate__zoomIn">BEGIN</p>
           <div class="simply-countdown animate__animated animate__zoomIn"></div>
           <button id="tomb" onclick="enableScroll ()">Buka
@@ -97,9 +97,9 @@
           </button>        
       </main>
   </section>
-    <section style="height: 5rem;" class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
+    <section style="height: 10rem;" class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
+      <p id="ini" class="navbar-brand1 text-center">Hari Yang Ditunggu</p>
     </section>
-
 
     <nav class="navbar fixed-top">
       <div class="container">
@@ -212,7 +212,8 @@
   </div>
 </section>
 
-<section style="height: 5rem;" class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
+<section style="height: 10rem;" class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
+  <p id="ini" class="navbar-brand1 text-center">Hari Kebahagian Kami</p>
 </section>
 
 
@@ -309,49 +310,48 @@
         </button>        
       </div>
     </div>
-    
-    <div class="card ansar">
-    <div class="mail text-center">
-      <h1>KLIK</h1>
-    </div>
-      <div class="profile-pic"></div>
-      <div class="bottom">
-        <div class="content">
-          <span class="name text-center" style="color: #F3E9A8; margin-top: -3rem;">5 MEI 2024</span>
-          <span class="about-me text-center"
-            >09.00 WITA - Selesai</br>
-          </span>
-        </div>
-        <div class="bottom-bottom">
-          <div class="social-links-container" style="margin-bottom: -0.9rem;">
-          Akad
+    <div class="acara ansar"><div class="card">
+      <div class="mail text-center">
+        <h1>KLIK</h1>
+      </div>
+        <div class="profile-pic"></div>
+        <div class="bottom">
+          <div class="content">
+            <span class="name text-center" style="color: #F3E9A8; margin-top: -3rem;">5 MEI 2024</span>
+            <span class="about-me text-center"
+              >09.00 WITA - Selesai</br>
+            </span>
+          </div>
+          <div class="bottom-bottom">
+            <div class="social-links-container" style="margin-bottom: -0.9rem;">
+            Akad
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    
-    <div class="c2">
-      <div class="card diah">
-        <div class="mail text-center">
-          <h1>KLIK</h1>
-        </div>
-          <div class="profile-pic"></div>
-          <div class="bottom">
-            <div class="content">
-              <span class="name text-center" style="color: #F3E9A8; margin-top: -3rem;">5 MEI 2024</span>
-          <span class="about-me text-center"
-            >11.00 WITA - Selesai</br>
-              </span>
-            </div>
-            <div class="bottom-bottom">
-              <div class="social-links-container">
-              Resepsi
+      
+      <div class="c2">
+        <div class="card">
+          <div class="mail text-center">
+            <h1>KLIK</h1>
+          </div>
+            <div class="profile-pic"></div>
+            <div class="bottom">
+              <div class="content">
+                <span class="name text-center" style="color: #F3E9A8; margin-top: -3rem;">5 MEI 2024</span>
+            <span class="about-me text-center"
+              >11.00 WITA - Selesai</br>
+                </span>
+              </div>
+              <div class="bottom-bottom">
+                <div class="social-links-container">
+                Resepsi
+                </div>
               </div>
             </div>
           </div>
-        </div>
-    </div>
-
+      </div>
+  </div>
 </section>
 
 <section id="rum" style="height: 200px;" class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
@@ -393,7 +393,7 @@
     <div class="popup-outer">
       <div class="popup-box">
         <i id="close" class="bx bx-x close">X</i>
-        <div class="comen">
+        <div class="comen" style="overflow: hidden;">
           <script defer src="https://cdn.commento.io/js/commento.js"></script>
           <div id="commento"></div>
         </div>
@@ -460,7 +460,7 @@
     </div>
     <span>Kirim Hadiah</span>
   </button>
-  <p>Merupakan suatu kebahagiaan bila Anda bisa hadir dan merayakan hari bahagia ini bersama kami.</p></div>
+  <p class="isi" style="margin-top: -4rem;">Merupakan suatu kebahagiaan bila Anda bisa hadir dan merayakan hari bahagia ini bersama kami.</p></div>
 </section>
 
 <nav class="navbar sticky-top text-center justify-content-center flex-grow-0 mynavbar semua">
@@ -576,7 +576,7 @@
   ScrollReveal({ 
     reset: false,
     duration: 1500,
-    distance: '600px'
+    distance: '350px'
   });
     
     ScrollReveal().reveal('.judul', { delay: 50, origin: 'top' });
@@ -590,7 +590,7 @@
     ScrollReveal().reveal('.samping2', { duration:2500, delay: 250, origin: 'left' });
     ScrollReveal().reveal('.isi', { delay: 50 });
     ScrollReveal().reveal('.diah', { delay: 50, origin:'left' });
-    ScrollReveal().reveal('.ansar', { delay: 50, origin:'right' });
+    ScrollReveal().reveal('.ansar', {origin:'right' });
     
 </script>
 

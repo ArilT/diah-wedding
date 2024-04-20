@@ -90,7 +90,7 @@ body {
   position: absolute;
   font-size: 4.5rem;
   font-weight: bold;
-  color: #F3E9A8;
+  color: #ffffff;
   opacity: 1;
 }
 .mengaj svg:hover {
@@ -373,7 +373,7 @@ body {
     }
 
     .hero h5 {
-        margin-bottom: 80px;
+        margin-bottom: 15%;
     }
     
     .hero h1 {
@@ -390,9 +390,11 @@ body {
     .hero p {
         font-size: 1.4rem;
         font-family: "Work Sans", sans-serif;
-        margin-top: 80px;
+        margin-top: 8%;
     }
-    
+    .hero h3 {
+        margin-top: 20%;
+    }
     .hero a {
         color: white;
         background-color: #00aeff;
@@ -526,7 +528,7 @@ body {
     }
 
     .hero h4 {
-        margin-top: 6rem;
+        margin-top: 4rem;
     }
 
     .home .couple {
