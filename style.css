@@ -8,12 +8,14 @@ body {
     font-family: "Work Sans", sans-serif;
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     position: relative;
 }
-
+section {
+    overflow:hidden;
+}
 /* Hero */
 
 .hero {
@@ -195,9 +197,6 @@ body {
     margin-bottom: 3rem;
     z-index: 2;
     margin-top: -4rem;
-}
-#commento-login-box-container {
-    overflow: hidden;
 }
 .home h4 {
     font-family: "Scheherazade New", serif;
@@ -503,7 +502,6 @@ body {
     html{
         font-size: 46%;
         width: 100%;
-        overflow-x: hidden;
     }
 
     .simply-countdown>.simply-section {
